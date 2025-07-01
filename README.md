@@ -9,20 +9,24 @@ Clone the repository
 git clone https://github.com/yourusername/LogAnalyser.git
 cd LogAnalyser
 ```
-Build the program (release mode)
+
+To install it globally
 ```bash
+bash install.sh
+```
+Now you can run it anywhere using
+```bash
+LogAnalyser
+```
+
+OR
+
+To build the program (release mode)
+```bash
+cd LogAnalyser
 cargo build --release
 ```
 Run the tool
 ```bash
 ./target/release/LogAnalyser
-```
-
-To install it globally
-```bash
-cargo install --path .
-```
-Now you can run it anywhere using
-```bash
-LogAnalyser
 ```
