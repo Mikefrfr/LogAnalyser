@@ -1,0 +1,12 @@
+[package]
+name = "LogAnalyser"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "LogAnalyser"
+path = "src/main.rs"
+
+[dependencies]
+regex = "1"
+colored = "2.1"
