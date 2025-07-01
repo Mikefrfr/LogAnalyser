@@ -42,5 +42,3 @@ if [[ ":$PATH:" != *":$CARGO_BIN:"* ]]; then
 else
     echo "[*] $CARGO_BIN is already in your PATH"
 fi
-
-echo "[✔] Done! You can now run 'LogAnalyser' from anywhere."
